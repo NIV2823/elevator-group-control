@@ -1,1 +1,22 @@
-﻿
+﻿  main.cpp
+G:\Users\Algorithm_Design_and_Analysis\elevator-group-control\elevator_final\main.cpp(9,9): warning C4005: “NOMINMAX”: 宏重定义
+      G:\Users\Algorithm_Design_and_Analysis\elevator-group-control\elevator_final\main.cpp(9,9):
+      之前在命令行上声明的“NOMINMAX”
+  
+  elevator.cpp
+  gui.cpp
+G:\Users\Algorithm_Design_and_Analysis\elevator-group-control\elevator_final\shared\gui.h(11,9): warning C4005: “NOMINMAX”: 宏重定义
+  (编译源文件“shared/gui.cpp”)
+      G:\Users\Algorithm_Design_and_Analysis\elevator-group-control\elevator_final\shared\gui.h(11,9):
+      之前在命令行上声明的“NOMINMAX”
+  
+  metrics.cpp
+  passenger.cpp
+  scheduler.cpp
+  simulator.cpp
+  traffic.cpp
+  utils.cpp
+  gwo.cpp
+  nearest.cpp
+  正在生成代码...
+  elevator_final.vcxproj -> G:\Users\Algorithm_Design_and_Analysis\elevator-group-control\x64\Debug\elevator_final.exe

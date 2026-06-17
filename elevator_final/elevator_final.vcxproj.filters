@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="algo_b\nearest.cpp">
+      <Filter>algo_b</Filter>
+    </ClCompile>
+    <ClCompile Include="algo_a\gwo.cpp">
+      <Filter>algo_a</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\elevator.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\gui.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\utils.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\traffic.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\simulator.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\scheduler.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\passenger.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\metrics.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="algo_a\gwo.h">
+      <Filter>algo_a</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\elevator.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\gui.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\utils.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\traffic.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\simulator.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\scheduler.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\passenger.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\metrics.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="algo_b\nearest.h">
+      <Filter>algo_b</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="algo_a">
+      <UniqueIdentifier>{4c7ab289-7be1-4c2e-bcc3-6b324d45340d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algo_b">
+      <UniqueIdentifier>{73105a89-9890-4afc-bff4-1bbd13bb4506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{cac07e77-5e62-4e19-bd88-ca27d5952a84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
